@@ -1,22 +1,6 @@
-f=open("read.txt", "r")
-s=f.readline()
-#print(f.read())
-#print("ㅋㅋ")
-print(s, len(s))
-#print(s.split("\n"))
-#print(s.strip())
-#print(s)
-
-#for l in f:
-#    s=l.strip()
-#
-#print(s, end=" ")
-#list = f.readlines()
-#print(list) #개행문자포함
-
-planets = []
+f=open("read.txt","r")
 for line in f:
-    planets.append(line.strip())
-
-print(planets)
+    word=line.strip()
+    if len(word) > 9:
+        print(word)
 f.close()
