@@ -34,3 +34,9 @@
    else:
      print('')
    ~~~
+   
+   (5) 함수
+   ~~~
+   def functiontest():
+    print('함수는 def 으로 정의')
+   ~~~
