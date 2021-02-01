@@ -120,7 +120,7 @@
       - 리스트의 길이만큼 print (pattern) 실행
       
 
-  - for in range 
+  - for in range : <b>0부터 색인 시작</b>
     - range 함수
       - 필요한 만큼의 숫자를 만들어내는 유용한 기능
       ~~~
@@ -134,4 +134,6 @@
       names = ['철수', '영희', '영수']
       for i, name in enumerate(names):
         print('{}번: {}'.format(i + 1, name))
+        
+      #len(vararr) 의 경우 list 길이 알 수 있음 
       ~~~
