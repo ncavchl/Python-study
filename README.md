@@ -40,3 +40,10 @@
    def functiontest():
     print('함수는 def 으로 정의')
    ~~~
+
+   (6) 출력방식
+   ~~~
+   a = 3
+   b = 5
+   print("{} + {}" .format(a,b))
+   ~~~
