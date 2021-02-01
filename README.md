@@ -31,6 +31,6 @@
     print('')
    elif b == c:
     print('')
-    else:
+   else:
       print('')
    ~~~
