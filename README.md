@@ -32,5 +32,5 @@
    elif b == c:
     print('')
    else:
-      print('')
+     print('')
    ~~~
