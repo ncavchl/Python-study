@@ -54,4 +54,5 @@
   print(" ' ")
   string = """ '랑 " 둘다 """
   print(string)
+  #줄바꿈은 \n 
   ~~~
