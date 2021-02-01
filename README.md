@@ -41,9 +41,17 @@
     print('함수는 def 으로 정의')
    ~~~
 
-   (6) 출력방식
+   (6) format
    ~~~
    a = 3
    b = 5
    print("{} + {}" .format(a,b))
    ~~~
+   
+  (7) 문자열 ', " 출력을 원할시  """ ~~ """ 
+  ~~~
+  print(' " ')
+  print(" ' ")
+  string = """ '랑 " 둘다 """
+  print(string)
+  ~~~
