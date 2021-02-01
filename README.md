@@ -56,3 +56,23 @@
   print(string)
   #줄바꿈은 \n 
   ~~~
+  
+  (8) 정수 실수
+  - a = 5//3 : // 몫 연산자
+  - int(5.4) : 정수 
+  - float(5) = 5.0 : 실수 
+  
+  
+  (9) 사용자 입력 받기 
+  - 사용자의 키보드 입력을 return
+  ~~~
+  print('가위 바위 보 중 하나를 내주세요> ', end = ' ')
+  mine = input()
+  print('mine:', mine)
+  ~~~
+
+  간단한 print기능을 내장
+  ~~~
+  mine = input('가위 바위 보 중 하나를 내주세요> ')
+  print('mine:', mine)
+  ~~~
