@@ -13,4 +13,10 @@
    ~~~
    if a<b:
     print('들여쓰기')
+    
+   if True: 
+    #꼭 T는 대문자
+    
+   if False:
+    #꼭 F는 대문자
    ~~~
