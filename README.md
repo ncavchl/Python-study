@@ -162,8 +162,8 @@
      ~~~
     import random
     list = ["빨","주","노","초","파","남","보"]
+    
     random_element = random.choice(list)  #해당 리스트 내 랜덤변수 선택 
-    random.choice(list)
     
     random_number = random.randint(a,b)   #a이상 b이하인 범위의 정수 출력 
     
