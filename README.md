@@ -155,3 +155,17 @@
         - 무작위와 관련된 기능
       - import urllib.request
         - 인터넷의 내용을 가져오는 기능
+        
+        
+     (13) random
+     - import random
+     ~~~
+    import random
+    list = ["빨","주","노","초","파","남","보"]
+    random_element = random.choice(list)  #해당 리스트 내 랜덤변수 선택 
+    random.choice(list)
+    
+    random_number = random.randint(a,b)   #a이상 b이하인 범위의 정수 출력 
+    
+    random.shuffle(list)                  #list 순서 변경 
+     ~~~
