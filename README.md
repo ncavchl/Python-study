@@ -184,3 +184,9 @@
 
   print(wintable['가위'])
   ~~~
+
+  ~~~
+  #삭제 
+  del(dict['one'])
+  dict.pop('two')
+  ~~~
