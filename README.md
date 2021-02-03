@@ -190,3 +190,18 @@
   del(dict['one'])
   dict.pop('two')
   ~~~
+  
+  - 딕셔너리와 반복문 활용
+    - 경우에 따라 가져올 값을 정할 수있다.
+    ~~~
+    for key in ages.keys(): # keys() 생략 가능
+        print(key)
+    for value in ages.values():
+        print(value)
+    ~~~
+    - key와 value 둘다 가져올 수 있다.
+    ~~~
+    for key, value in ages.items():
+        print('{}의 나이는 {} 입니다'.format(key, value))
+    ~~~
+    - 딕셔너리는 값의 순서를 지키지 않는다.
