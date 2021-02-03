@@ -205,3 +205,26 @@
         print('{}의 나이는 {} 입니다'.format(key, value))
     ~~~
     - 딕셔너리는 값의 순서를 지키지 않는다.
+    
+    - 리스트와 비교
+    - 공통점
+
+    
+      |공통점|리스트|딕셔너리|
+      |------|---|---|
+      |생성|list = [ 1, 2 ,3 ]|dict = { 'one':1, 'two':2 }|
+      |호출|list[ 0 ]|dict[ 'one' ]|
+      |삭제|del( list[ 0 ] )|el( dict[ 'one' ] )|
+      |개수 확인|len( list )|len( dict )|
+      |값 확인|2 in list|'two' in dict.keys( )|
+      |전부 삭제|list.clear( )|dict.clear( )|
+
+
+    - 차이점
+    
+      |차이점|리스트|딕셔너리|
+      |------|---|---|
+      |순서|삭제 시 순서가 바뀌기 때문에 인덱스에 대한 값이 바뀐다|key로 값을 가져오기 때문에 삭제 여부와 상관없다|
+      |결합|list1 + list2|dict1.update( dict2 )|
+
+
